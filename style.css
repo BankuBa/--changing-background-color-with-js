@@ -1,0 +1,28 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+button{
+  width: 8rem;
+  height: 2rem;
+  border: none;
+  border-radius: 10px;
+  background:linear-gradient(rgb(232, 209, 167),rgb(75, 224, 211),rgb(96, 219, 147)) ;
+   box-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.5);
+}
+
+button:hover{
+  scale: 1.1;
+  cursor: pointer;
+  transition: 1.1s;
+}
