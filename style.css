@@ -13,11 +13,13 @@ body{
   gap: 3rem;
 }
 button{
-  width: 8rem;
-  height: 2rem;
+  width: 9rem;
+  height: 3rem;
   border: none;
+  color: white;
+  font-size: 15px;
   border-radius: 10px;
-  background:linear-gradient(rgb(232, 209, 167),rgb(75, 224, 211),rgb(96, 219, 147)) ;
+  background:linear-gradient(60deg ,rgb(232, 209, 167),rgb(75, 224, 211),rgb(96, 219, 147)) ;
    box-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.5);
 }
 
